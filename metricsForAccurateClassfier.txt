@@ -1,0 +1,11 @@
+SINCE ACURRACY IS NOT A GOOD METRIC TO EVALUATE CLASSIFIERS
+So,we have multiple metric to EVALUATE
+1)Confusion matrix:-It is an matrix in which our rows are negative,positive actual and columns are predicted negavtive,positive.
+e.g.we want to classify digit 2 and our test inouts are 1,3,4,5 i.e negative actual and 2 is positive actual.&
+predicted -ve,+ve are classify by our classifier
+y-target(actual)=[0 1 0 1 1 0]
+y-predicted  =   [1 1 0 1 0 1]
+Confusion matrix:-
+           0predicted   1predicted
+0actual   |    1           2      |
+1actual   |    1           2      |
